@@ -14,7 +14,7 @@ function PricingCard(props) {
   );
 }
 
-function Pricing() {
+export function Pricing() {
   return (
     <section className="pricing">
 
@@ -58,5 +58,3 @@ function Pricing() {
     </section>
   );
 }
-
-export default Pricing;

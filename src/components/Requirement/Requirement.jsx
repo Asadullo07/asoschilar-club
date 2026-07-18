@@ -20,7 +20,7 @@ function RequirementCard(props) {
   );
 }
 
-function Requirement() {
+export function Requirement() {
   return (
     <section className="requirement">
 
@@ -64,5 +64,3 @@ function Requirement() {
     </section>
   );
 }
-
-export default Requirement;
