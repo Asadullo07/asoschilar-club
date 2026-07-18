@@ -12,7 +12,7 @@ import Steps from './components/steps/steps'
 import Members from './components/members/members'
 import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
-import Hero from './components/hero/hero'
+import Hero from './components/hero/Hero'
 const App = () => {
   return (
     <div>
