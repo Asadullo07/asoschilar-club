@@ -11,9 +11,12 @@ import Pricing from './components/Pricing/Pricing'
 import Steps from './components/steps/steps'
 import Members from './components/members/members'
 import Contact from './components/contact/contact'
+import Footer from './components/footer/footer'
+import Hero from './components/hero/hero'
 const App = () => {
   return (
     <div>
+      <Hero/>
       <Card/>
       <Networking/>
       <Application/>
@@ -28,6 +31,7 @@ const App = () => {
       <Members/>
       <Application/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }
