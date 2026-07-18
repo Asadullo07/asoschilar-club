@@ -3,7 +3,7 @@ import Application from './components/application/Application'
 import Card from './components/card/card'
 import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
-import Hero from './components/hero/Hero'
+import Laylo from './components/hero/hero'
 // import Meeting from './components/meeting/Meeting'
 import Members from './components/members/members'
 import Mission from './components/mission/mission'
@@ -16,7 +16,7 @@ import Steps from './components/steps/steps'
 const App = () => {
 	return (
 		<div>
-			<Hero />
+			<Laylo />
 			<Card />
 			<Networking />
 			<Application />

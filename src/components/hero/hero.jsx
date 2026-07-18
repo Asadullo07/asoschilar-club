@@ -1,6 +1,6 @@
 import "./Hero.css";
 
-function Hero() {
+function hero() {
   return (
     <section className="hero">
       <div className="overlay"></div>
@@ -42,4 +42,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default hero;
