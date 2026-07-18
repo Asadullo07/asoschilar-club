@@ -3,20 +3,20 @@ import Application from './components/application/Application'
 import Card from './components/card/card'
 import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
-import Hero from './components/hero/Hero'
-import Meeting from './components/meeting/Meeting'
+// import Hero from './components/hero/Hero'
+// import Meeting from './components/meeting/Meeting'
 import Members from './components/members/members'
 import Mission from './components/mission/mission'
 import Networking from './components/networking/networking'
-import { Pricing } from './components/Pricing/Pricing'
+// import { Pricing } from './components/Pricing/Pricing'
 import Reason from './components/reaso/reason'
-import { Requirement } from './components/Requirement/Requirement'
+// import { Requirement } from './components/Requirement/Requirement'
 import Statistics from './components/stats/statistics'
 import Steps from './components/steps/steps'
 const App = () => {
 	return (
 		<div>
-			<Hero />
+			{/* <Hero /> */}
 			<Card />
 			<Networking />
 			<Application />
@@ -24,10 +24,10 @@ const App = () => {
 			<Statistics />
 			<Mission />
 			<Reason />
-			<Requirement />
-			<Meeting />
+			{/* <Requirement /> */}
+			{/* <Meeting /> */}
 			<Steps />
-			<Pricing />
+			{/* <Pricing /> */}
 			<Members />
 			<Application />
 			<Contact />
